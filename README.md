@@ -12,9 +12,6 @@ In this project, we explore different strategies for initializing the student la
 
 - **Initialize the Odd Layers**: We initialize the odd layers (1, 3, 5, 7, 8, 9, 11) from the 12-layer teacher model to the 6-layer student model.
 
----
-
-This readme provides an overview of the project and the strategies used for initializing the student layers via distillation. For more details, refer to the project documentation and code.
 
 ## Training Results
 The model was trained for only a short period due to limited computing resources or time constraints. This could mean the model didn't have enough time to fully learn from the data, resulting in potentially subpar accuracy. Increasing the training time (epochs) could help the model learn more complex patterns and perform better overall, but this might require more computational power and time.
@@ -27,3 +24,7 @@ The model was trained for only a short period due to limited computing resources
 | Top-K Layer | 0.247091 | 0.808383 | 0.679000 |
 | Bottom-K Layer | 0.246424 | 0.810205 | 0.670000 |
 
+
+---
+
+This readme provides an overview of the project and the strategies used for initializing the student layers via distillation. For more details, refer to the project documentation and code.
