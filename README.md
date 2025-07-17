@@ -1,4 +1,4 @@
-# A6_Student_Layer_Initialization
+# Student_Layer_Initialization
 
 ## Exploring Student Layer Initialization via Distillation using BERT Huggingface
 
